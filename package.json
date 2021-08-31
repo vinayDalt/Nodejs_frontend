@@ -1,0 +1,29 @@
+{
+  "name": "inps_frontend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "express-session": "^1.17.2",
+    "lodash": "^4.17.21",
+    "morgan": "~1.9.1",
+    "openid-client": "2.4.5",
+    "passport": "^0.4.1",
+    "passport-ci-oidc": "^2.0.4",
+    "passport-strategy": "^1.0.0"
+  },
+  "description": "This is the Frontend part of INPS application",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/vingu121/INPS-FrontEnd-Deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
